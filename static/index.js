@@ -1,4 +1,4 @@
-const es = new EventSource('http://localhost:12344/listen');
+const es = new EventSource('http://localhost:12344/events');
 const rows_per_page = 18
 const listener = function (event) {
     const type = event.type;

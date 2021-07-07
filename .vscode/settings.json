@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "c:\\Users\\austenn\\Documents\\Projects\\ANCO\\Development\\Software\\sse-event-viewer\\venv\\Scripts\\python.exe",
+    "launch": {
+        "configurations": [],
+        "compounds": [],
+    },
+    "python.terminal.activateEnvironment": true
+}

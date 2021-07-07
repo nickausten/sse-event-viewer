@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\austenn\Documents\Projects\ANCO\Design\Drawings\venv"
+VIRTUAL_ENV="C:\Users\austenn\Documents\Projects\ANCO\Development\Software\sse-event-viewer\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
