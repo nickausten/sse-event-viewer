@@ -21,7 +21,7 @@ class MessageAnnouncer:
         '''Distribute the msg passed in to all registered clients.'''
         for i in reversed(range(len(self.listeners))):
             try:
-                print(f'Send {msg!r} to {self.listeners[i]!r}')
+                # print(f'Send {msg!r} to {self.listeners[i]!r}')
                 self.listeners[i].put_nowait(msg)
             except queue.Full:
                 del self.listeners[i]
