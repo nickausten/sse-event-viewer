@@ -7,6 +7,6 @@ A further endpoint /ping can be used to manually trigger a 'pong' event - using 
 port = 12344 [Default]
 
 ## Endpoints
-* / = Render index.html and associated javascript code which subscribes to the /events endpoint to receive Server Sent Event stream, writing those events to both console.log() and to an HTML table on the web page.
+* / = Render index.html and associated javascript code which subscribes to the /events endpoint to receive Server Sent Event stream, writing those events to an HTML table on the web page.
 * /events = API though which clients can connect and receive a stream of asynchronous (SSE) events.
 * /ping = endpoint that will echo text data sent to it back to the web client (browser, curl, etc.).
