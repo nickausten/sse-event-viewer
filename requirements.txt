@@ -1,1 +1,6 @@
 flask
+
+fastapi
+aiofiles
+sse-starlette
+uvicorn

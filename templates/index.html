@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,24 @@
     <link rel="stylesheet" href="static/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Log Data</h1>
-    <table  >
-        <thead><th width="20%">Type</th><th>Event</th></thead>
+    <table>
+        <thead>
+            <th width="10%">Type</th>
+            <th>Event</th>
+        </thead>
         <tbody id="root" class="log"></tbody>
-        <tfoot width="100%"><th></th><th></th></tfoot>
+        <tfoot width="100%">
+            <th></th>
+            <th></th>
+        </tfoot>
     </table>
-    <script src="static/index.js"></script>
-    <script src="static/external/jquery-3.6.0.js"></script>
+    <script src="{{ url_for('static', path='/external/jquery-3.6.0.js') }}" type="text/javascript"></script>
+    <script src="{{ url_for('static', path='/index.js') }}" type="text/javascript"></script>
+
 
 </body>
+
 </html>
